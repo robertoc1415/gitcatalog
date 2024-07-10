@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://catalog:password@mongodb:27017/catalog
+      uri: mongodb+srv://<user>:<password>@mongodb.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000
       database: catalog
 
 springdoc:
